@@ -11,22 +11,74 @@
   /* fonts */
   --font: 'Outfit', sans-serif;
   --title: 700;
+  --size-title: 24px;
   --paragraph: 400;
+  --size-paragraph: 15px;
   /* fonts */
 }
 
-body{}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.main{}
+body{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
 
-.container{}
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightgray);
+  padding: 0 30px;
+}
 
-.qrcode{}
+.container{
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 315px;
+}
 
-.qrcode-image{}
+.qrcode{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
 
-.text{}
+.qrcode-image{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 15px;
+}
 
-.title{}
+.text{
+  text-align: center;
+  font-family: var(--font);
+}
 
-.paragraph{}
+.title{
+  color: var(--darkblue);
+  font-size: var(--size-title);
+  margin: 10px 0 20px;
+
+}
+
+.paragraph{
+  font-weight: var(--paragraph);
+  color: var(--greyishblue);
+  font-size: var(--size-paragraph);
+  margin-bottom: 10px;
+}
