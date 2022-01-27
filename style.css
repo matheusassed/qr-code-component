@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+  /* colors */
+  --white: #FFF;
+  --lightgray: #d6e2f0;
+  --greyishblue: #7b879d;
+  --darkblue: #1f3251;
+  /* colors */
+
+  /* fonts */
+  --font: 'Outfit', sans-serif;
+  --title: 700;
+  --paragraph: 400;
+  /* fonts */
+}
+
+body{}
+
+.main{}
+
+.container{}
+
+.qrcode{}
+
+.qrcode-image{}
+
+.text{}
+
+.title{}
+
+.paragraph{}
